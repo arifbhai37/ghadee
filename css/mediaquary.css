@@ -1,0 +1,105 @@
+@media only screen and (max-width:1500px) {
+  .body-div{
+    width: 75% !important;
+    }
+}
+@media only screen and (max-width:810px) {
+  .body-div{
+    width: 100% !important;
+    }
+}
+@media screen and (min-width: 412px){
+  .card-img{
+    width: 100%;
+  height: 160px;
+  }
+  .c-sub-img{
+    height: 160px;
+
+  }
+}
+@media screen and (min-width: 412px) {
+  .cards-contnr {
+    grid-template-columns: auto auto ;
+  }
+  .card-img{
+    width: 100%;
+  height: 175px;
+  }
+  .c-sub-img{
+    height: 175px;
+
+  }
+}
+@media screen and (min-width: 520px) {
+  .cards-contnr {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .cards-contnr {
+    grid-template-columns: auto auto auto auto ;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .cards-contnr {
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
+  .card {
+    height: 280px;
+  }
+  .card-sub-contnr {
+    position: relative;
+    top: 15px;
+  }
+  .card-img {
+    height: 165px;
+  }
+  .c-sub-img {
+    height: 165px;
+  }
+  .card-text-contnr {
+    height: 110px;
+  }
+  .item-cost {
+    font-size: 17px;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+  }
+  .off-item-cost {
+    font-size: 14px;
+    position: relative;
+    left: 18px;
+    top: 0px;
+  }
+  .amazon-button {
+    height: 35px;
+    width: 120px;
+    border-radius: 15px;
+  }
+  .amzn-btn-text{
+      position: relative;
+      left: 3px;
+      font-size: 18px;
+  }
+  .bxl-amazon{
+      font-size: 25px;
+      position: relative;
+      top: 5px;
+  }
+  .c-text{
+      font-size:10px ;
+  }
+
+}
+@media only screen and (max-width:450px){
+  .ads-text-spnsrd {
+    position: absolute;
+    right: 13px;
+    bottom: -1px;
+    font-size: 7px;
+    color: grey;
+  }
+}
